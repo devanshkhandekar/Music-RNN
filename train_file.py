@@ -3,7 +3,7 @@ import json
 import argparse 
 
 import numpy as np
-from model_dsk import build_model,save_weights
+from model import build_model,save_weights
 
 data_dir='./data'
 log_dir='./logs'
