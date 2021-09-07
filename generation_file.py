@@ -4,7 +4,7 @@ import json
 
 import numpy as np
 
-from model_dsk import build_model, load_weights
+from model import build_model, load_weights
 
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import LSTM, Dropout, TimeDistributed, Dense, Activation, Embedding
